@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 16px;
+  border-bottom: 1px solid #ddd;
+  flex-shrink: 0;
+}
+
+.app-header strong {
+  font-size: 16px;
+  letter-spacing: -0.3px;
+}
+
+.app-header span {
+  font-size: 12px;
+  color: #888;
+}
+
+.app-layout {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}

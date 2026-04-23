@@ -1,0 +1,82 @@
+.bubble-wrap {
+  display: flex;
+}
+
+.bubble-wrap.user {
+  justify-content: flex-end;
+}
+
+.bubble-wrap.assistant {
+  justify-content: flex-start;
+}
+
+.bubble {
+  padding: 10px 14px;
+  border-radius: 6px;
+  line-height: 1.55;
+}
+
+.bubble.user {
+  max-width: 65%;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+}
+
+.bubble.assistant {
+  max-width: 88%;
+  background: #fff;
+  border: 1px solid #e4e4e4;
+}
+
+.bubble.error {
+  border-color: #f5c6cb;
+  background: #fff5f5;
+}
+
+.bubble-text {
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+.thinking {
+  font-size: 13px;
+  color: #aaa;
+  font-style: italic;
+}
+
+.sql-details {
+  margin-top: 10px;
+}
+
+.sql-details summary {
+  font-size: 12px;
+  color: #666;
+  cursor: pointer;
+  user-select: none;
+}
+
+.sql-details summary:hover {
+  color: #333;
+}
+
+.sql-pre {
+  margin-top: 6px;
+  padding: 10px 12px;
+  background: #f8f8f8;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: #333;
+  line-height: 1.5;
+}
+
+.scalar-value {
+  margin-top: 10px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
